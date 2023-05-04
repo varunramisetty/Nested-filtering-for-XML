@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wd:Contact_Data xmlns:wd="urn:fake">
+   <wd:Email_Address_Data>
+      <wd:Email_Address>tester@example.net</wd:Email_Address>
+      <wd:Usage_Data wd:Public="1">
+         <wd:Type_Data wd:Primary="1">
+            <wd:Type_Reference>
+               <wd:ID wd:type="WID">abc</wd:ID>
+               <wd:ID wd:type="Communication_Usage_Type_ID">WORK</wd:ID>
+            </wd:Type_Reference>
+         </wd:Type_Data>
+      </wd:Usage_Data>
+   </wd:Email_Address_Data>
+   <wd:Email_Address_Data>
+      <wd:Email_Address>home@example.net</wd:Email_Address>
+      <wd:Usage_Data wd:Public="0">
+         <wd:Type_Data wd:Primary="1">
+            <wd:Type_Reference>
+               <wd:ID wd:type="WID">ghi</wd:ID>
+               <wd:ID wd:type="Communication_Usage_Type_ID">HOME</wd:ID>
+            </wd:Type_Reference>
+         </wd:Type_Data>
+      </wd:Usage_Data>
+   </wd:Email_Address_Data>
+</wd:Contact_Data>
